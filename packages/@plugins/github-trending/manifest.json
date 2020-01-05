@@ -1,0 +1,6 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Trending",
+  "version": "1.0.0",
+  "description": "简单的Chrome扩展demo"
+}
