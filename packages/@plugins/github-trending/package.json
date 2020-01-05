@@ -1,0 +1,35 @@
+{
+  "name": "github-trending",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [
+    "chrome",
+    "extension",
+    "chrome-extension"
+  ],
+  "homepage": "https://plugins.upcwangying.com",
+  "bugs": "https://github.com/upcwangying/chrome-extensions/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upcwangying/chrome-extensions.git"
+  },
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "Ying Wang <upcwangying@gmail.com> (https://github.com/upcwangying)"
+  ]
+}
