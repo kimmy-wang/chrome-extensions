@@ -5,6 +5,8 @@
 .temp
 *.iws
 dist
+build
+key.pem
 
 ### Node template
 logs
