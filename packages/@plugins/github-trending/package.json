@@ -20,7 +20,7 @@
   ],
   "main": "src/index.js",
   "scripts": {
-    "build": "grunt",
+    "build:grunt": "grunt --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

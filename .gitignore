@@ -4,6 +4,7 @@
 *.ipr
 .temp
 *.iws
+dist
 
 ### Node template
 logs

@@ -28,5 +28,5 @@ module.exports = function(grunt) {
   })
 
   grunt.loadNpmTasks('grunt-crx')
-  grunt.registerTask('default', ['grunt-crx'])
+  grunt.registerTask('default', ['crx:staging', 'crx:production'])
 }

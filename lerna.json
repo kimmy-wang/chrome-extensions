@@ -4,7 +4,10 @@
       "conventionalCommits": true
     }
   },
-  "useWorkspaces": true,
+  "packages": [
+    "packages/@plugins/*",
+    "packages/docs"
+  ],
   "version": "independent",
   "npmClient": "yarn"
 }
