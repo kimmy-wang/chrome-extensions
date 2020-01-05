@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build:grunt",
+    "build": "lerna run build:gulp",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2",
     "codecov": "codecov",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
