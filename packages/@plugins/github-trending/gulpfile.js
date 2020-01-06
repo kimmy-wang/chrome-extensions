@@ -1,8 +1,9 @@
-var fs = require('fs')
-var path = require('path')
-var gulp = require('gulp')
-var crx = require('@crxs/gulp-crx')
-var manifest = require('./src/manifest.json')
+const fs = require('fs')
+const path = require('path')
+const gulp = require('gulp')
+const crx = require('@crxs/gulp-crx')
+const zip = require('gulp-zip')
+const manifest = require('./src/manifest.json')
 
 gulp.task('crx', function() {
   return gulp
@@ -13,7 +14,14 @@ gulp.task('crx', function() {
         filename: manifest.name + '-' + manifest.version + '.crx',
       }),
     )
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./dist/dev'))
 })
 
-gulp.task('default', ['crx'])
+gulp.task('zip', function() {
+  return gulp
+    .src('./src/**/*')
+    .pipe(zip(manifest.name + '-' + manifest.version + '.zip'))
+    .pipe(gulp.dest('./dist/prod'))
+})
+
+gulp.task('default', ['crx', 'zip'])

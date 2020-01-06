@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "@crxs/gulp-crx": "1.0.4",
-    "gulp": "3.9.1"
+    "gulp": "3.9.1",
+    "gulp-zip": "5.0.1"
   },
   "publishConfig": {
     "access": "public"
