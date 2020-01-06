@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@crxs/gulp-crx@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@crxs/gulp-crx/-/gulp-crx-1.0.3.tgz#7ca1eade9e020ac1e9e9416693b6a8265a73ae1f"
-  integrity sha512-B6csCJu+ylI66YPBD4iU0MieE31NMrsb3FDqqU9RAb5FWQdi7lqVP3FlnpmyAioPzvHOSLgIdO5f8HQMwG5z+g==
+"@crxs/gulp-crx@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@crxs/gulp-crx/-/gulp-crx-1.0.4.tgz#bd36e7d46b3c045f3834253678e034d76cbac83f"
+  integrity sha512-ecPwMP0dy0FY+elQByYz//8RwZQdvE2tAHpdPDbFrJkKMyeGLNPfjOVL3T93cpaEfbQVlcRUfpuJVmSh/bxFdw==
   dependencies:
     crx "5.0.1"
     merge "^1.2.0"

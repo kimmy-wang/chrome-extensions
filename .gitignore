@@ -6,7 +6,7 @@
 *.iws
 dist
 build
-key.pem
+certs
 
 ### Node template
 logs
