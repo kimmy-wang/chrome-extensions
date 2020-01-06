@@ -1,6 +1,6 @@
 var fs = require('fs')
 var gulp = require('gulp')
-var crx = require('gulp-crx-pack')
+var crx = require('@crxs/gulp-crx')
 var manifest = require('./src/manifest.json')
 
 gulp.task('crx', function() {
@@ -9,7 +9,7 @@ gulp.task('crx', function() {
     .pipe(
       crx({
         privateKey: fs.readFileSync('./key.pem', 'utf8'),
-        filename: manifest.name + '.crx',
+        filename: manifest.name + '-' + manifest.version + '.crx',
       }),
     )
     .pipe(gulp.dest('./dist'))
